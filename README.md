@@ -9,15 +9,6 @@ Retrieves posts, including text, images, timestamps, and post links.
 
 **Locate the Access Token Variable:** Open the plugin file (facebook-fetcher.php) and find this line:
 
-**php Copy code**
-$this->access_token = 'YOUR_ACCESS_TOKEN';
-Replace the Placeholder: Replace 'YOUR_ACCESS_TOKEN' with your actual Facebook Access Token. For example:
-
-**php Copy code**
-$this->access_token = 'EAABsbCS1iHgBAKZCv6ZBzUuNpZBZClUoCqXzZCZA9EZBZAnOE1wXZBZB6dfxSNLZAZCHm3RQ1fzrBA77xoFZBZB56CZBzZAZBcZCZBZBvZBZAlG0WZD'; // Replace with your real token
-
-**Save the File: ** Save the changes to the file and upload it back to your server if editing locally.
-
 **How to Generate the Access Token**
 Create a Facebook App on the Facebook Developer Dashboard.
 Enable the Graph API product.
